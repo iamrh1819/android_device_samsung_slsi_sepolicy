@@ -25,4 +25,4 @@ allow hal_power_default sysfs_touchscreen_writable:file rw_file_perms;
 allow hal_power_default sysfs_devices_system_cpu:file rw_file_perms;
 
 # /sys/kernel/gpu/gpu_min_freq
-allow hal_power_default sysfs_gpu:file rw_file_perms;
+#allow hal_power_default sysfs_gpu:file rw_file_perms;
